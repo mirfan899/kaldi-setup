@@ -2,7 +2,7 @@
 Necessary package required for Kaldi ASR setup.
 
 ### Install CUDA 9.0
-run the script `install_cudnn_9.0` and then edit your `.bashrc` file and add the following lines
+run the script `install_cuda` and then edit your `.bashrc` file and add the following lines
 ```textmate
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
