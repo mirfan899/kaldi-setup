@@ -11,3 +11,9 @@ Now check the `CUDNN` version by following command
 ```shell
 cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
+
+### Install SRILM
+You also need to install SRILM. I've added the source code of SRILM Version 1.7.2. Clone it to the kaldi directory and install it.
+```shell
+git clone https://github.com/mirfan899/SRILM.git
+```
