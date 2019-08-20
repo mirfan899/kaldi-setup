@@ -17,5 +17,6 @@ sudo dpkg -i libnccl-dev_2.1.4-1+cuda9.0_amd64.deb
 
 sudo apt-get update
 sudo apt-get install cuda=9.0.176-1
+sudo apt-get install libcudnn7
 sudo apt-get install libcudnn7-dev
 sudo apt-get install libnccl-dev
